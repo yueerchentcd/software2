@@ -1,0 +1,16 @@
+========================================
+Q2 result for grid size n = 15
+Processes used        : 4
+Jacobi iterations     : 2000
+Final max update      : 0.000000000000e+00
+Max abs error         : 1.411403122087e-04
+RMSE                  : 7.250237056359e-05
+========================================
+========================================
+Q2 result for grid size n = 31
+Processes used        : 4
+Jacobi iterations     : 2000
+Final max update      : 1.001390617095e-07
+Max abs error         : 2.296864328849e-05
+RMSE                  : 8.355595339841e-06
+========================================
