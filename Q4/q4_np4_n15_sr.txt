@@ -1,0 +1,17 @@
+========================================
+Q4 run: 2D parallel Poisson solver
+Grid size            : 15 x 15
+Processes used       : 4
+Process grid         : 2 x 2
+Exchange mode        : sendrecv
+Jacobi iterations    : 2000
+========================================
+iter    0: global diff = 8.418387584023e-02
+iter  100: global diff = 1.002473210205e-06
+iter  200: global diff = 4.272123596963e-10
+Iterative solve converged at iteration 249
+Finished after 249 iterations
+Run took 11.316008 s
+Max abs error = 1.282715034384e-04
+RMSE          = 6.272036829018e-05
+Gathered grid written to q4_grid_15_sr.dat

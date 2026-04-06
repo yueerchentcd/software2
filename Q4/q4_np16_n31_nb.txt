@@ -1,0 +1,24 @@
+========================================
+Q4 run: 2D parallel Poisson solver
+Grid size            : 31 x 31
+Processes used       : 16
+Process grid         : 4 x 4
+Exchange mode        : nonblocking
+Jacobi iterations    : 2000
+========================================
+iter    0: global diff = 1.689830365116e-01
+iter  100: global diff = 9.665088258071e-05
+iter  200: global diff = 1.297251390212e-05
+iter  300: global diff = 1.873462579255e-06
+iter  400: global diff = 2.716588214364e-07
+iter  500: global diff = 3.940026033667e-08
+iter  600: global diff = 5.714518689548e-09
+iter  700: global diff = 8.288205548082e-10
+iter  800: global diff = 1.202102179527e-10
+iter  900: global diff = 1.743501225408e-11
+Iterative solve converged at iteration 929
+Finished after 929 iterations
+Run took 0.113581 s
+Max abs error = 1.504935687557e-05
+RMSE          = 7.480876117227e-06
+Gathered grid written to q4_grid_31_nb.dat

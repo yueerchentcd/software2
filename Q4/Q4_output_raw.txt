@@ -1,0 +1,138 @@
+===== Q4 runs start =====
+Running: np=4, nx=15, sendrecv
+========================================
+Q4 run: 2D parallel Poisson solver
+Grid size            : 15 x 15
+Processes used       : 4
+Process grid         : 2 x 2
+Exchange mode        : sendrecv
+Jacobi iterations    : 2000
+========================================
+iter    0: global diff = 8.418387584023e-02
+iter  100: global diff = 1.002473210205e-06
+iter  200: global diff = 4.272123596963e-10
+Iterative solve converged at iteration 249
+Finished after 249 iterations
+Run took 11.316008 s
+Max abs error = 1.282715034384e-04
+RMSE          = 6.272036829018e-05
+Gathered grid written to q4_grid_15_sr.dat
+Running: np=4, nx=15, nonblocking
+========================================
+Q4 run: 2D parallel Poisson solver
+Grid size            : 15 x 15
+Processes used       : 4
+Process grid         : 2 x 2
+Exchange mode        : nonblocking
+Jacobi iterations    : 2000
+========================================
+iter    0: global diff = 8.418387584023e-02
+iter  100: global diff = 1.002473210205e-06
+iter  200: global diff = 4.272123596963e-10
+Iterative solve converged at iteration 249
+Finished after 249 iterations
+Run took 6.168008 s
+Max abs error = 1.282715034384e-04
+RMSE          = 6.272036829018e-05
+Gathered grid written to q4_grid_15_nb.dat
+Running: np=4, nx=31, sendrecv
+========================================
+Q4 run: 2D parallel Poisson solver
+Grid size            : 31 x 31
+Processes used       : 4
+Process grid         : 2 x 2
+Exchange mode        : sendrecv
+Jacobi iterations    : 2000
+========================================
+iter    0: global diff = 1.689830365116e-01
+iter  100: global diff = 9.665088258071e-05
+iter  200: global diff = 1.297251390212e-05
+iter  300: global diff = 1.873462579255e-06
+iter  400: global diff = 2.716588214364e-07
+iter  500: global diff = 3.940026033667e-08
+iter  600: global diff = 5.714518689548e-09
+iter  700: global diff = 8.288205548082e-10
+iter  800: global diff = 1.202102179527e-10
+iter  900: global diff = 1.743501225408e-11
+Iterative solve converged at iteration 929
+Finished after 929 iterations
+Run took 43.540968 s
+Max abs error = 1.504935687557e-05
+RMSE          = 7.480876117227e-06
+Gathered grid written to q4_grid_31_sr.dat
+Running: np=4, nx=31, nonblocking
+========================================
+Q4 run: 2D parallel Poisson solver
+Grid size            : 31 x 31
+Processes used       : 4
+Process grid         : 2 x 2
+Exchange mode        : nonblocking
+Jacobi iterations    : 2000
+========================================
+iter    0: global diff = 1.689830365116e-01
+iter  100: global diff = 9.665088258071e-05
+iter  200: global diff = 1.297251390212e-05
+iter  300: global diff = 1.873462579255e-06
+iter  400: global diff = 2.716588214364e-07
+iter  500: global diff = 3.940026033667e-08
+iter  600: global diff = 5.714518689548e-09
+iter  700: global diff = 8.288205548082e-10
+iter  800: global diff = 1.202102179527e-10
+iter  900: global diff = 1.743501225408e-11
+Iterative solve converged at iteration 929
+Finished after 929 iterations
+Run took 21.100004 s
+Max abs error = 1.504935687557e-05
+RMSE          = 7.480876117227e-06
+Gathered grid written to q4_grid_31_nb.dat
+Running: np=16, nx=31, sendrecv
+========================================
+Q4 run: 2D parallel Poisson solver
+Grid size            : 31 x 31
+Processes used       : 16
+Process grid         : 4 x 4
+Exchange mode        : sendrecv
+Jacobi iterations    : 2000
+========================================
+iter    0: global diff = 1.689830365116e-01
+iter  100: global diff = 9.665088258071e-05
+iter  200: global diff = 1.297251390212e-05
+iter  300: global diff = 1.873462579255e-06
+iter  400: global diff = 2.716588214364e-07
+iter  500: global diff = 3.940026033667e-08
+iter  600: global diff = 5.714518689548e-09
+iter  700: global diff = 8.288205548082e-10
+iter  800: global diff = 1.202102179527e-10
+iter  900: global diff = 1.743501225408e-11
+Iterative solve converged at iteration 929
+Finished after 929 iterations
+Run took 0.161375 s
+Max abs error = 1.504935687557e-05
+RMSE          = 7.480876117227e-06
+Gathered grid written to q4_grid_31_sr.dat
+Running: np=16, nx=31, nonblocking
+========================================
+Q4 run: 2D parallel Poisson solver
+Grid size            : 31 x 31
+Processes used       : 16
+Process grid         : 4 x 4
+Exchange mode        : nonblocking
+Jacobi iterations    : 2000
+========================================
+iter    0: global diff = 1.689830365116e-01
+iter  100: global diff = 9.665088258071e-05
+iter  200: global diff = 1.297251390212e-05
+iter  300: global diff = 1.873462579255e-06
+iter  400: global diff = 2.716588214364e-07
+iter  500: global diff = 3.940026033667e-08
+iter  600: global diff = 5.714518689548e-09
+iter  700: global diff = 8.288205548082e-10
+iter  800: global diff = 1.202102179527e-10
+iter  900: global diff = 1.743501225408e-11
+Iterative solve converged at iteration 929
+Finished after 929 iterations
+Run took 0.113581 s
+Max abs error = 1.504935687557e-05
+RMSE          = 7.480876117227e-06
+Gathered grid written to q4_grid_31_nb.dat
+===== Q4 runs finished =====
