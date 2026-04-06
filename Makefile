@@ -1,0 +1,20 @@
+CC=mpicc
+CFLAGS=-g -Wall
+TARGET=poiss1d
+
+all: $(TARGET)
+
+$(TARGET): main.o decomp1d.o jacobi.o
+	$(CC) $(CFLAGS) -o $(TARGET) main.o decomp1d.o jacobi.o -lm
+
+main.o: main.c poisson1d.h jacobi.h decomp1d.h
+	$(CC) $(CFLAGS) -c main.c
+
+decomp1d.o: decomp1d.c decomp1d.h
+	$(CC) $(CFLAGS) -c decomp1d.c
+
+jacobi.o: jacobi.c jacobi.h poisson1d.h
+	$(CC) $(CFLAGS) -c jacobi.c
+
+clean:
+	rm -f *.o $(TARGET)

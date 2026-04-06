@@ -1,0 +1,22 @@
+========================================
+Q3 run: parallel Poisson solver
+Grid size            : 31
+Processes used       : 4
+Jacobi iterations    : 2000
+========================================
+iter    0: global diff = 1.689830365116e-01
+iter  100: global diff = 9.665088258071e-05
+iter  200: global diff = 1.297251390212e-05
+iter  300: global diff = 1.873462579255e-06
+iter  400: global diff = 2.716588214364e-07
+iter  500: global diff = 3.940026033667e-08
+iter  600: global diff = 5.714518689549e-09
+iter  700: global diff = 8.288205548072e-10
+iter  800: global diff = 1.202102179534e-10
+iter  900: global diff = 1.743501225387e-11
+Iterative solve converged at iteration 929
+Finished after 929 iterations
+Run took 21.847006 s
+Max abs error = 1.504935687566e-05
+RMSE          = 7.480876117223e-06
+Gathered grid written to q3_grid_31.dat
